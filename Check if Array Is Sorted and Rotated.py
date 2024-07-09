@@ -9,7 +9,7 @@ class Solution:
         
         return count_rotations <= 1
 
-# Example usage:
+
 nums = [3, 4, 5, 1, 2]
 solution = Solution()
-print(solution.check(nums))  # Output: True
+print(solution.check(nums))  
