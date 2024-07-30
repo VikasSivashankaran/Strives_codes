@@ -1,4 +1,5 @@
 def numb(num):
+    
     left = 0
     right = len(num)-1
     while (left<right):
@@ -7,7 +8,6 @@ def numb(num):
         num[right]=temp
         left+=1
         right-=1
-    print(num)
-
+    return " ".join(map(str, num)) 
 num = [1,4,3,2]
 print(numb(num))
