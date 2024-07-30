@@ -2,8 +2,6 @@ import numpy as np
 
 def main():
     N,M,P = map(int, input().split())
-    print("PRINTLINE",M)
-
     
     first_array = []
     second_array = []
