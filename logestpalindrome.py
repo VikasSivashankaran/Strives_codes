@@ -1,3 +1,4 @@
+s = "babad"
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         def isPalindrom(word):
@@ -10,4 +11,7 @@ class Solution:
                 if isPalindrom(s[i:j]) and len(s[i:j]) > len(longest):
                     longest = s[i:j]
         return longest
-        
+sol = Solution()
+
+result = sol.longestPalindrome(s)
+print(result)
